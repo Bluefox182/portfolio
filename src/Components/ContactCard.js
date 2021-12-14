@@ -44,6 +44,11 @@ const RightCards = styled.div`
     display: flex;
     flex-direction: column;
     gap: 100px;
+    @media screen and (max-width: 960px) {
+      padding-top: 40px;
+      padding-bottom: 60px;
+      gap: 40px;
+    }
   }
   .card-items {
     width: 300px;

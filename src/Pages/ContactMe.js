@@ -46,12 +46,13 @@ const ContactMeStyled = styled.div`
 
   /* Responsive */
 
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 960px) {
     .MyContact-content {
       flex-direction: column;
       align-items: center;
-      gap: 20px;
-      padding: 0 30px;
+      justify-content: space-evenly;
+      gap: 40px;
+      padding: 10px 30px;
     }
   }
 `;

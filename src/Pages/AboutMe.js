@@ -128,7 +128,7 @@ const AboutStyled = styled.div`
 
   /* Responsive */
 
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 960px) {
     .About-content {
       flex-direction: column;
       align-items: center;

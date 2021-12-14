@@ -16,6 +16,10 @@ function ButtonProjects({ filter, button }) {
 }
 
 const ButtonStyled = styled.button`
+  @media screen and (max-width: 960px) {
+    width: 80%;
+    padding: 0.4rem 1.5rem;
+  }
   outline: none;
   border: none;
   background-color: #0779e4;
@@ -46,5 +50,8 @@ const ButtonsStyled = styled.div`
   gap: 20px;
   width: 70%;
   margin: 2.4rem auto;
+  @media screen and (max-width: 960px) {
+    flex-wrap: nowrap;
+  }
 `;
 export default ButtonProjects;

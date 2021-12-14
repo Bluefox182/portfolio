@@ -58,6 +58,7 @@ const NavBarStyled = styled.nav`
     width: 100%;
     justify-content: flex-end;
     align-items: center;
+    padding-right: 40px;
     overflow: hidden;
     font-size: 1rem;
 

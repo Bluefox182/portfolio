@@ -132,5 +132,16 @@ const HomePageStyled = styled.div`
       }
     }
   }
+  @media screen and (max-width: 960px) {
+    .hero-text,
+    .hero-text2,
+    .name {
+      font-size: 24px;
+    }
+
+    .title-text {
+      font-size: 14px;
+    }
+  }
 `;
 export default HomePage;

@@ -57,7 +57,7 @@ const ResumeStyled = styled.div`
 
   /* Responsive */
 
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 960px) {
     .Resume-items {
       flex-direction: column;
       align-items: center;
