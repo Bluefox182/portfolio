@@ -54,4 +54,15 @@ const ResumeStyled = styled.div`
     justify-content: space-evenly;
     padding-top: 40px;
   }
+
+  /* Responsive */
+
+  @media screen and (max-width: 1200px) {
+    .Resume-items {
+      flex-direction: column;
+      align-items: center;
+      gap: 90px;
+      padding: 50px 30px;
+    }
+  }
 `;

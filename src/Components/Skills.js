@@ -64,7 +64,7 @@ const SkillsStyled = styled.div`
     list-style: none;
     font-size: 3rem;
     margin: 0 auto;
-    width: 90%;
+    width: 100%;
   }
 
   .skill-bar-wrapper {

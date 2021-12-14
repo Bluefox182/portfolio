@@ -43,4 +43,15 @@ const ContactMeStyled = styled.div`
     display: flex;
     justify-content: space-evenly;
   }
+
+  /* Responsive */
+
+  @media screen and (max-width: 1200px) {
+    .MyContact-content {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      padding: 0 30px;
+    }
+  }
 `;

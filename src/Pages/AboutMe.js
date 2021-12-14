@@ -125,4 +125,14 @@ const AboutStyled = styled.div`
   .typewriter > p {
     margin: 0;
   }
+
+  /* Responsive */
+
+  @media screen and (max-width: 1200px) {
+    .About-content {
+      flex-direction: column;
+      align-items: center;
+      padding: 0 30px;
+    }
+  }
 `;
