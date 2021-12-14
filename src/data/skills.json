@@ -1,0 +1,37 @@
+{
+  "skills": [
+    {
+      "id": 0,
+      "skillName": "HTML5",
+      "amount": "95"
+    },
+    {
+      "id": 1,
+      "skillName": "CSS3",
+      "amount": "95"
+    },
+    {
+      "id": 2,
+      "skillName": "JavaScript",
+      "amount": "90"
+    },
+    { "id": 3, "skillName": "React.js", "amount": "90" },
+    {
+      "id": 4,
+      "skillName": "Redux",
+      "amount": "80"
+    },
+    {
+      "id": 5,
+      "skillName": "REST",
+      "amount": "90"
+    },
+    { "id": 6, "skillName": "Node.js", "amount": "85" },
+    { "id": 7, "skillName": "Express", "amount": "85" },
+    {
+      "id": 8,
+      "skillName": "MongoDB",
+      "amount": "85"
+    }
+  ]
+}
