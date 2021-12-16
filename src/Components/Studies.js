@@ -44,17 +44,33 @@ function Studies() {
 export default Studies;
 
 const StudiesStyled = styled.div`
+  @media screen and (max-width: 400px) {
+    .study-cards {
+      width: 100%;
+      max-width: 400px;
+    }
+  }
+
   h3 {
     font-size: 28px;
+    @media screen and (max-width: 400px) {
+      font-size: 20px;
+    }
   }
 
   p {
     font-size: 24px;
+    @media screen and (max-width: 400px) {
+      font-size: 18px;
+    }
   }
   .study-content {
     display: flex;
     flex-direction: column;
     gap: 40px;
+    @media screen and (max-width: 400px) {
+      padding: 0 30px;
+    }
   }
   .study-cards {
     background-color: #0779e4;
@@ -65,6 +81,9 @@ const StudiesStyled = styled.div`
     box-shadow: 10px 10px 0px 0px rgba(46, 76, 109, 0.75);
     -webkit-box-shadow: 10px 10px 0px 0px rgba(46, 76, 109, 0.75);
     -moz-box-shadow: 10px 10px 0px 0px rgba(46, 76, 109, 0.75);
+    @media screen and (max-width: 400px) {
+      padding: 10px 0;
+    }
     :hover {
       transform: scale(0.95);
       background: linear-gradient(to right, #4d74e6, #2a57dc);
@@ -84,5 +103,8 @@ const StudiesStyled = styled.div`
   .date-text {
     font-size: 18px;
     padding-top: 5px;
+    @media screen and (max-width: 400px) {
+      font-size: 16px;
+    }
   }
 `;

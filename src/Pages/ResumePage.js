@@ -53,6 +53,10 @@ const ResumeStyled = styled.div`
     display: flex;
     justify-content: space-evenly;
     padding-top: 40px;
+    @media screen and (max-width: 376px) {
+      padding-left: 40px;
+      <padding-right></padding-right>: 40px;
+    }
   }
 
   /* Responsive */
@@ -62,7 +66,14 @@ const ResumeStyled = styled.div`
       flex-direction: column;
       align-items: center;
       gap: 90px;
-      padding: 50px 30px;
+      padding: 40px 0;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    h2 {
+      font-size: 28px;
+      padding: 0;
+      text-align: center;
     }
   }
 `;

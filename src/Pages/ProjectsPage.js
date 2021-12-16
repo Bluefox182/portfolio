@@ -39,6 +39,9 @@ const MyProjectsStyled = styled.section`
   background-color: #191a19;
   width: 100%;
   height: 100%;
+  @media screen and (max-width: 767px) {
+    padding: 20px;
+  }
 
   h1 {
     text-align: center;

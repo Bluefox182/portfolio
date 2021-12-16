@@ -1,10 +1,9 @@
-// import { BrowserRouter as Router, NavLink } from "react-router-dom";
 import React from "react";
 import { NavLink } from "react-router-dom";
 
 import styled from "styled-components";
 
-function NavBar() {
+function NavBar({ navToggle }) {
   return (
     <NavBarStyled>
       <ul className="nav-items">
@@ -49,6 +48,9 @@ const NavBarStyled = styled.nav`
   display: flex;
   position: sticky;
   z-index: 1;
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
 
   .nav-item {
     font-size: 14px;
