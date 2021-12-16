@@ -1,51 +1,29 @@
-import React, { useState } from "react";
+import React from "react";
 import styled from "styled-components";
 
 function ContactForm() {
-  const [status, setStatus] = useState("Send Message");
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    setStatus("Sending...");
-    const { name, email, message } = e.target.elements;
-    let details = {
-      name: name.value,
-      email: email.value,
-      message: message.value,
-    };
-    let response = await fetch("http://localhost:5000/contact", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json;charset=utf-8",
-      },
-      body: JSON.stringify(details),
-    });
-    setStatus("Submit");
-    let result = await response.json();
-    alert(result.status);
-  };
   return (
     <FormStyled>
       <div className="contact-content">
         <h3>Let's work together!</h3>
-        <form className="form" onSubmit={handleSubmit}>
+        <form className="form">
           <div className="form-field">
-            <input type="text" id="name" placeholder="Name" required />
+            <input type="text" id="name" placeholder="Name" />
           </div>
           <div className="form-field">
-            <input type="email" id="email" placeholder="Email" required />
+            <input type="email" id="email" placeholder="Email" />
           </div>
           <div className="form-field">
             <textarea
               name="textarea"
-              id="message"
+              id="textarea"
               cols="30"
               rows="10"
               placeholder="Your Message"
-              required
             ></textarea>
           </div>
           <div className="form-field">
-            <button className="button-contact">{status}</button>
+            <button className="button-contact">Send Message</button>
           </div>
         </form>
       </div>
