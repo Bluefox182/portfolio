@@ -42,22 +42,22 @@ const ExperienceStyled = styled.div`
     }
   h3 {
     font-size: 28px;
-    @media screen and (max-width: 400px) {
-      font-size: 20px;
+    @media screen and (max-width: 500px) {
+      font-size: 22px;
     }
   }
 
   p {
     font-size: 24px;
-    @media screen and (max-width: 400px) {
-      font-size: 18px;
+    @media screen and (max-width: 500px) {
+      font-size: 20px;
     }
   }
   .study-content {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    @media screen and (max-width: 400px) {
+    @media screen and (max-width: 500px) {
       padding: 0 30px;
     }
   }

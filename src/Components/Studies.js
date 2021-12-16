@@ -53,22 +53,22 @@ const StudiesStyled = styled.div`
 
   h3 {
     font-size: 28px;
-    @media screen and (max-width: 400px) {
-      font-size: 20px;
+    @media screen and (max-width: 500px) {
+      font-size: 22px;
     }
   }
 
   p {
     font-size: 24px;
-    @media screen and (max-width: 400px) {
-      font-size: 18px;
+    @media screen and (max-width: 500px) {
+      font-size: 20px;
     }
   }
   .study-content {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    @media screen and (max-width: 400px) {
+    @media screen and (max-width: 500px) {
       padding: 0 30px;
     }
   }
@@ -81,7 +81,7 @@ const StudiesStyled = styled.div`
     box-shadow: 10px 10px 0px 0px rgba(46, 76, 109, 0.75);
     -webkit-box-shadow: 10px 10px 0px 0px rgba(46, 76, 109, 0.75);
     -moz-box-shadow: 10px 10px 0px 0px rgba(46, 76, 109, 0.75);
-    @media screen and (max-width: 400px) {
+    @media screen and (max-width: 600px) {
       padding: 10px 0;
     }
     :hover {
@@ -103,7 +103,7 @@ const StudiesStyled = styled.div`
   .date-text {
     font-size: 18px;
     padding-top: 5px;
-    @media screen and (max-width: 400px) {
+    @media screen and (max-width: 600px) {
       font-size: 16px;
     }
   }
